@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+	 display:block;
+  }
+}
+/* .adjust{
+	width:1519px;
+	height:612px
+} */
+#card{
+	padding-bottom:20px;
+}
+.display-3{
+	padding-top:111px;
+}
+.display-4{
+	padding-top:55px;
+}
+.display-2{
+	font-size:2.5rem
+}
+#header{
+	margin-top:56px;
+	padding-bottom:216px;
+	/* background-image:url('about.jpeg'); */
+	/* width:100%;
+	height:auto; */
+}
+#user{
+	margin-bottom:10px;
+	padding: 2px 109px;
+	text-align:	center;
+}
+#password{
+	margin-bottom:10px;
+	padding: 2px 109px;
+	text-align:	center;
+
+}
+#search{
+	margin-bottom:10px;
+	padding:5px 20px; 
+}
+.jumbotron{
+	text-align:center;
+}
+/* .row{
+	margin:0px -84px;
+} */
+.navbar-brand{
+	color:#948989
+}
+svg{
+	color:white;
+}
+body { 
+    padding-top: 65px; 
+}

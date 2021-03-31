@@ -1,0 +1,15 @@
+<h1>
+	The Courses Are...
+</h1>
+<div class="container">
+	<% data["results"].forEach(function(courses){ %>
+	<h4><a href="https://www.udemy.com/courses/search/?q=<%= course %>"><strong>Title:<%= courses["title"] %></strong> - <%= courses["price"]%></a>
+		</h4>	
+	<% }) %>
+</div>
+<div class="container">
+	<p class="btn-outline-primary">
+		All Prices are in south korean currency.So,please change according to your country currency.
+	</p>
+</div>
+<a href="/search" >Search Again!!</a>

@@ -1,0 +1,15 @@
+<%- include("./partials/header") %>
+
+<div class="jumbotron">
+      <div class="container topnav">
+        <p class="display-4 ntxt">Search the Video</p>
+        <form action="/result" method="GET">
+	       <div>
+				<input id="search" type="text" placeholder="Search..." name="search">			   
+			</div>
+           <input type="submit" class="btn btn-info btn-lg nchange">
+        </form>  
+      </div>
+</div>
+
+<%- include("./partials/footer") %>
